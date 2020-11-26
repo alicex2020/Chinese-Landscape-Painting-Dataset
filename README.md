@@ -1,9 +1,11 @@
 <h1><u>Traditional Chinese Landscape Painting Dataset </u></h1>
 
-*To be published in the proceedings of 2021 IEEE Winter Conference on Applications of Computer Vision (WACV)*
 
 <b>Paper Title</b>: "End-to-End Chinese Landscape Painting Creation Using Generative Adversarial Networks"\
-<b>ArXiv:</b> https://arxiv.org/abs/2011.05552
+<b>ArXiv:</b> https://arxiv.org/abs/2011.05552 \
+<b>Abstract:</b> \
+Current GAN-based art generation methods produce unoriginal artwork due to their dependence on conditional input. Here, we propose Sketch-And-Paint GAN (SAPGAN), the first model which generates Chinese landscape paintings from end to end, without conditional input. SAPGAN is composed of two GANs: SketchGAN for generation of edge maps, and PaintGAN for subsequent edge-to-painting translation. Our model is trained on a new dataset of traditional Chinese landscape paintings never before used for generative research. A 242-person Visual Turing Test study reveals that SAPGAN paintings are mistaken as human artwork with 55% frequency, significantly outperforming paintings from baseline GANs. Our work lays a groundwork for truly machine-original art generation.
+
 
 We provide a dataset consisting of 2,192 high-quality traditional Chinese landscape paintings (中国山水画). All paintings are sized 512x512, from the following sources:
 * <a href=https://artmuseum.princeton.edu/search/collections>Princeton University Art Museum</a>, 362 paintings
