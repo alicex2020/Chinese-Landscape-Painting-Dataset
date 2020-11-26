@@ -1,4 +1,4 @@
-<h1><u>Traditional Chinese Landscape Painting Dataset </u><h1>
+<h1><u>Traditional Chinese Landscape Painting Dataset </u></h1>
 
 *To be published in the proceedings of 2021 IEEE Winter Conference on Applications of Computer Vision (WACV)*
 
