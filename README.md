@@ -6,8 +6,13 @@
 <b>Abstract:</b> \
 Current GAN-based art generation methods produce unoriginal artwork due to their dependence on conditional input. Here, we propose Sketch-And-Paint GAN (SAPGAN), the first model which generates Chinese landscape paintings from end to end, without conditional input. SAPGAN is composed of two GANs: SketchGAN for generation of edge maps, and PaintGAN for subsequent edge-to-painting translation. Our model is trained on a new dataset of traditional Chinese landscape paintings never before used for generative research. A 242-person Visual Turing Test study reveals that SAPGAN paintings are mistaken as human artwork with 55% frequency, significantly outperforming paintings from baseline GANs. Our work lays a groundwork for truly machine-original art generation.
 
+*Sketch-And-Paint GAN, compared with baseline models:*
+![Alt Text](https://github.com/alicex2020/Chinese-Landscape-Painting-Dataset/blob/main/paper-figure.jpg)
 
-We provide a dataset consisting of 2,192 high-quality traditional Chinese landscape paintings (中国山水画). All paintings are sized 512x512, from the following sources:
+---
+
+
+Here, we provide the dataset used to train our Sketch-And-Paint GAN model. The dataset consists of 2,192 high-quality traditional Chinese landscape paintings (中国山水画). All paintings are sized 512x512, from the following sources:
 * <a href=https://artmuseum.princeton.edu/search/collections>Princeton University Art Museum</a>, 362 paintings
 * <a href=https://harvardartmuseums.org/collections/api>Harvard University Art Museum</a>, 101 paintings
 * <a href=https://metmuseum.github.io/>Metropolitan Museum of Art</a>, 428 paintings
